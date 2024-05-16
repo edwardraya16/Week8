@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.todoapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\160921011_Gilbert\ToDoApp3\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\160921011_Gilbert\ToDoApp3\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.12.0] C:\Users\PCE05\.gradle\caches\transforms-3\dcd66f99abf1472096594ad6fd99ce63\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.todoapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.12.0] C:\Users\PCE05\.gradle\caches\transforms-3\dcd66f99abf1472096594ad6fd99ce63\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.12.0] C:\Users\PCE05\.gradle\caches\transforms-3\dcd66f99abf1472096594ad6fd99ce63\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.todoapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.12.0] C:\Users\PCE05\.gradle\caches\transforms-3\dcd66f99abf1472096594ad6fd99ce63\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.12.0] C:\Users\PCE05\.gradle\caches\transforms-3\dcd66f99abf1472096594ad6fd99ce63\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\160921011_Gilbert\ToDoApp3\app\src\main\AndroidManifest.xml:5:5-21:19
+18        android:allowBackup="true"
+18-->C:\160921011_Gilbert\ToDoApp3\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.12.0] C:\Users\PCE05\.gradle\caches\transforms-3\dcd66f99abf1472096594ad6fd99ce63\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\160921011_Gilbert\ToDoApp3\app\src\main\AndroidManifest.xml:7:9-43
+23        android:label="@string/app_name"
+23-->C:\160921011_Gilbert\ToDoApp3\app\src\main\AndroidManifest.xml:8:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\160921011_Gilbert\ToDoApp3\app\src\main\AndroidManifest.xml:9:9-54
+25        android:supportsRtl="true"
+25-->C:\160921011_Gilbert\ToDoApp3\app\src\main\AndroidManifest.xml:10:9-35
+26        android:theme="@style/Theme.ToDoApp" >
+26-->C:\160921011_Gilbert\ToDoApp3\app\src\main\AndroidManifest.xml:11:9-45
+27        <activity
+27-->C:\160921011_Gilbert\ToDoApp3\app\src\main\AndroidManifest.xml:12:9-20:20
+28            android:name="com.example.todoapp.view.MainActivity"
+28-->C:\160921011_Gilbert\ToDoApp3\app\src\main\AndroidManifest.xml:13:13-46
+29            android:exported="true" >
+29-->C:\160921011_Gilbert\ToDoApp3\app\src\main\AndroidManifest.xml:14:13-36
+30            <intent-filter>
+30-->C:\160921011_Gilbert\ToDoApp3\app\src\main\AndroidManifest.xml:15:13-19:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\160921011_Gilbert\ToDoApp3\app\src\main\AndroidManifest.xml:16:17-69
+31-->C:\160921011_Gilbert\ToDoApp3\app\src\main\AndroidManifest.xml:16:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\160921011_Gilbert\ToDoApp3\app\src\main\AndroidManifest.xml:18:17-77
+33-->C:\160921011_Gilbert\ToDoApp3\app\src\main\AndroidManifest.xml:18:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <service
+37-->[androidx.room:room-runtime:2.5.1] C:\Users\PCE05\.gradle\caches\transforms-3\9b891e2ba7432020e0e62554f55b3d32\transformed\room-runtime-2.5.1\AndroidManifest.xml:24:9-28:63
+38            android:name="androidx.room.MultiInstanceInvalidationService"
+38-->[androidx.room:room-runtime:2.5.1] C:\Users\PCE05\.gradle\caches\transforms-3\9b891e2ba7432020e0e62554f55b3d32\transformed\room-runtime-2.5.1\AndroidManifest.xml:25:13-74
+39            android:directBootAware="true"
+39-->[androidx.room:room-runtime:2.5.1] C:\Users\PCE05\.gradle\caches\transforms-3\9b891e2ba7432020e0e62554f55b3d32\transformed\room-runtime-2.5.1\AndroidManifest.xml:26:13-43
+40            android:exported="false" />
+40-->[androidx.room:room-runtime:2.5.1] C:\Users\PCE05\.gradle\caches\transforms-3\9b891e2ba7432020e0e62554f55b3d32\transformed\room-runtime-2.5.1\AndroidManifest.xml:27:13-37
+41
+42        <uses-library
+42-->[androidx.window:window:1.0.0] C:\Users\PCE05\.gradle\caches\transforms-3\680359c515f8f7ba3da81708ffdef4c3\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+43            android:name="androidx.window.extensions"
+43-->[androidx.window:window:1.0.0] C:\Users\PCE05\.gradle\caches\transforms-3\680359c515f8f7ba3da81708ffdef4c3\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+44            android:required="false" />
+44-->[androidx.window:window:1.0.0] C:\Users\PCE05\.gradle\caches\transforms-3\680359c515f8f7ba3da81708ffdef4c3\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+45        <uses-library
+45-->[androidx.window:window:1.0.0] C:\Users\PCE05\.gradle\caches\transforms-3\680359c515f8f7ba3da81708ffdef4c3\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+46            android:name="androidx.window.sidecar"
+46-->[androidx.window:window:1.0.0] C:\Users\PCE05\.gradle\caches\transforms-3\680359c515f8f7ba3da81708ffdef4c3\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+47            android:required="false" />
+47-->[androidx.window:window:1.0.0] C:\Users\PCE05\.gradle\caches\transforms-3\680359c515f8f7ba3da81708ffdef4c3\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PCE05\.gradle\caches\transforms-3\c12cf5739fe5bd6710b7783cf334bfe9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PCE05\.gradle\caches\transforms-3\c12cf5739fe5bd6710b7783cf334bfe9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+51            android:authorities="com.example.todoapp.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PCE05\.gradle\caches\transforms-3\c12cf5739fe5bd6710b7783cf334bfe9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PCE05\.gradle\caches\transforms-3\c12cf5739fe5bd6710b7783cf334bfe9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PCE05\.gradle\caches\transforms-3\c12cf5739fe5bd6710b7783cf334bfe9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PCE05\.gradle\caches\transforms-3\c12cf5739fe5bd6710b7783cf334bfe9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PCE05\.gradle\caches\transforms-3\c12cf5739fe5bd6710b7783cf334bfe9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\PCE05\.gradle\caches\transforms-3\e81befb987490015e7c1f72d7f7fd30c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\PCE05\.gradle\caches\transforms-3\e81befb987490015e7c1f72d7f7fd30c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\PCE05\.gradle\caches\transforms-3\e81befb987490015e7c1f72d7f7fd30c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>
